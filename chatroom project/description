@@ -1,0 +1,5 @@
+THis project is based on Java Servlet
+Server obtains clients requiest and send them appriraite messages.
+Client may send messages to chatroom through server and it will be displayed to other clients
+
+Languages: Javascript, html
