@@ -1,0 +1,7 @@
+***This Project requires Apache server 7.0
+Main Page is a login page requires users to input username and it will be stored in jsp file.
+Then user will be taken to shopping pages to browswer and add items into shopping cart
+All the processing data will be stored in the jsp file but execute through java files.
+WHen the shopping is over, user may have access to their shopping history through "history page"
+
+**main langeuage: java, html, jsp
