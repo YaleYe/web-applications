@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Numbers API GUI</title>
+  </head>
+  <body>
+    <h1>Graphical User Interface to the Numbers API</h1>
+    <form id="form">
+      <!-- // Selector for data type (trivia, math, date, or year). -->
+      <select id="dataType">
+	      <option selected disabled>Select a type of data to retrieve:</option>
+	      <option value="trivia">trivia</option>
+	      <option value="math">math</option>
+	      <option value="date">date</option>
+	      <option value="year">year</option>
+      </select>
+    </form>
+    <!-- Div to hold follow-up form for non-date data types. -->
+    <div id="follow_up">
+    </div>
+    <!-- Div to hold response from the Numbers API server. -->
+    <div id="display">
+    </div>
+
+    <script src="numbers.js"></script>
+  </body>
+</html>
