@@ -1,0 +1,15 @@
+doctype html
+html
+  head
+  body
+      div.
+        Thanks for shopping with us, #{username}!
+      div.
+        Here are your previous orders:
+      ul
+        each item in items
+          li= item
+
+
+      div.
+      a(href="/shop") Return to shopping

@@ -1,0 +1,28 @@
+doctype html
+html
+  head
+  body
+      form(action="/shop" method = "post" class="shop")
+        div.
+            Thanks for shopping with us, #{username}!
+        div.
+            Enter the item you would like to buy
+        div.
+        input(type="text" size="40" name="item")
+        div.
+        button(type="submit") Add to cart!
+
+
+      label.
+        Current items in cart:
+      ul
+        each item in items
+          li= item
+
+      form(action="/orders" method="post" class="orders" )
+      div.
+      //sources: https://stackoverflow.com/questions/36233833/jade-template-engine-a-href-tag-with-button
+      a(href="/orders")
+        button(type="sumbit") Place my order!
+      div.
+      a(href="/orders") Show my previous orders
